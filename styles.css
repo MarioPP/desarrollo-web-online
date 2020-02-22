@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto&display=swap');
+
+/* HEADER */
+
+.header
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  display: flex;
+  background-color: #273055;
+  height: 100px;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.container
+{
+  display: inherit;
+  width: 1000px;
+  margin: 0 auto;
+  height: inherit;
+  justify-content: inherit;
+  flex-wrap: inherit;
+  align-items: center;
+}
+
+.header ul
+{
+  display: flex;
+}
+
+.header a
+{
+  display: flex;
+  color: #FFFFFF;
+  text-decoration: none;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.header nav, .header ul, .header li, .header a
+{
+  height: inherit;
+}
+
+ul, li
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure
+{
+  margin: 0;
+}
+
+/* BODY */
+
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.hero
+{
+  display: flex;
+  height: 300px;
+  background-image: url(./images/Background\ Hero.png);
+  margin: 0;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.hero-title
+{
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.hero-title strong
+{
+  color: #46d5e5;
+  margin: 10px 15px 20px 10px;
+}
+
+.portfolio
+{
+  background: #fafafa;
+  padding: 20px;
+}
+
+.portfolio-title
+{
+  font-weight: bold;
+  color: #2d1c47;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.project
+{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.project-details
+{
+  width: 500px;
+}
+
+.project-title
+{
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.project strong
+{
+  font-family: 'Lato', sans-serif;
+
+}
+
+.project-course, .project-date, .project-url
+{
+  margin: 10px 0;
+}
+
+.project-description
+{
+  font-size: 20px;
+}
+
+.project-imageContainer
+{
+  width: 500px;
+}
+
+.events-title
+{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #2d1c47;
+}
+
+.events
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event
+{
+  background-color: #00498b38;
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.event img
+{
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-details
+{
+  margin: 20px 40px;
+  margin-top: -40px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  position: relative;
+  text-align: center;
+}
+
+.event-title
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event-description
+{
+  text-align: left;
+}
+
+.event-url
+{
+  border: 1px solid;
+  color: white;
+  background-color: #00498b;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contact
+{
+  display: flex;
+  background: #000428;
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  background: linear-gradient(to left, #004e92, #000428);
+  color: white;
+  height: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.email-title
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-email input
+{
+  border-color: rgb(104, 104, 104);
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px 20px 10px 25px;
+  background-image: url(/images/Logo\ Email.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: center;
+}
+
+.form-email button
+{
+  display: block;
+  background: transparent;
+  color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+.social-link
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px; 
+  margin: 0 10px;
+}
+
+.social-link.twitter
+{
+  background-image: url(images/Logo\ Twitter.png);
+}
+
+.social-link.facebook
+{
+  background-image: url(images/Logo\ Facebook.png);
+}
+
+.social-link.github
+{
+  background-image: url(images/Logo\ Github.png);
+}
+
+.social-link.instagram
+{
+  background-image: url(images/Logo\ Instagram.png);
+}
+
+/* FOOTER */
+
+.footer
+{
+  display: flex;
+  color: #ffffff;
+  background-color: #131f34;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.footer a
+{
+  color: #ffffff;
+}
+
+.footer img
+{
+  vertical-align: middle;
+}
